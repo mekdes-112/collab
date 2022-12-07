@@ -1,0 +1,140 @@
+
+#body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#A77899;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+#team{
+    
+    margin-bottom:-120px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    
+    border-style: 1px solid  #6998AB ;
+}
+.center h4{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 0 0 20px 0;
+    color: #6998AB;
+}
+.center form{
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #6998AB ;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #6998AB;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #6998AB;
+    transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #6998AB; 
+
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+
+}
+
+input[type="submit"]{
+    border-radius: 15px;
+    border-color: #6998AB;
+    margin-top: 1px;
+    color: white;
+    background-color: #6998AB;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(20, 70, 114);
+    transition: .5s;
+}
+
+
+#logo {
+    margin-top: -760px;
+    margin-left: 47px;
+}
+
+.signup_link{
+    margin: 30px 0;
+    margin-left: 0px;
+    font-size: 16px;
+    color: #6998AB;
+}
+.signup_link a{
+    color: #A77899;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    font-size: 16px;
+    color: #6998AB;
+   
+}
+.pass a{
+    color: #A77899;
+    text-decoration: none;
+}
+.pass a:hover{
+    text-decoration: underline;
+}
+
+#fo{
+    margin-top: -1000px;
+}
+#Layer_1 {
+    margin-top: 100px;
+}
