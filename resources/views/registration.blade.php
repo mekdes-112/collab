@@ -77,7 +77,7 @@
       </div>
       
       
-      <input type="submit" value="Login">
+      <input type="submit" value="SignUp">
       <div class="signup_link">
         Already have an account? <a href="login">Log in</a>
       </div>
